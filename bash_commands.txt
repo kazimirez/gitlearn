@@ -1,0 +1,28 @@
+pwd - current location
+mkdir - create a folder
+cd path - go path
+ls - what's in current directory
+touch - create a file
+cat filname - look what's in the file
+cat >> filename - edit mode (Ctrl+c)
+vim filename - edit mode ,ESCAPE then :wq - exit editor with save, :q! - without save
+mv filenam filename - rename
+mv -t DESTINATION file1 file2 file3 - move multiplite files at once
+cp - copy
+cp /home/usr/dir/{file1,file2,file3,file4} /home/usr/destination/  - copy multiplite files at once
+find path/ (. - everywhere) -name 'mystring*' - find a file       
+find . -type f -name "*.txt" - find files by type
+tale filename.txt - show ending of the file
+head filename.txt - show start of the file
+readlink -f file.ext - get the path to a file
+> - clear content of a file
+
+grep sec d:/group30/gitlearn/dir_1/tf_1.txt - find 'sec' in the file
+
+
+chmod +rx scriptname (выдача прав на чтение/исполнение любому пользователю в системе)
+
+gid add path/
+git commit -m "message of the commit"
+git push
+git pull
